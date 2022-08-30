@@ -1,0 +1,202 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 80%;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: "roboto", sans-serif;
+}
+
+p, a, input {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    font-family: "roboto", sans-serif;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    /* margin-bottom: 50px; */
+    height: 20%;
+    padding: 50px 50px;
+}
+
+nav {
+    width: 30%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+nav li {
+    padding: 0 10px;
+}
+
+nav a,
+nav a:visited {
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+    /* color: #f7f7f7; */
+}
+
+#contact {
+    color: #478ac9;
+}
+
+main {
+    /* display: flex; */
+    margin: 50px;
+    height: 80%;
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    width: 60%;
+}
+
+p{
+    width: 90%;
+}
+
+#conversa {
+    margin-bottom: 0;
+}
+
+#estacoes {
+    color: #eeaa24;
+    margin-top: 0;
+}
+
+#freePik {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+#saberMais {
+    font-size: 11px;
+    padding: 10px;
+    height: 45px;
+    width: 150px;
+    margin-top: 20px;
+    border: 1px solid #eeaa24;
+    border-radius: 20px;
+    background-color: #eeaa24;
+    color: white;
+}
+
+main span {
+    margin-left: 5em;
+    width: 60%;
+}
+
+#imagens {
+    width: 70%;
+    height: 80%;
+    /*display: flex;*/
+    position: relative;
+}
+
+#circulo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    border: 35px solid #eeaa24;
+    border-radius: 50%;
+}
+
+#mulher {
+    position: absolute;
+    left: 45px;
+    top: 95px;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-image: url("mulher.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+#microfone {
+    position: absolute;
+    left: 0;
+    top: 370px;
+    width: 180px;
+    height: 180px;
+    border: 15px solid #eeaa24;
+    border-radius: 50%;
+    background-image: url("microphone.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+#bolinha {
+    position: absolute;
+    left: 250px;
+    top: 520px;
+    background-color: #eeaa24;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* body{
+        position: relative;
+    } */
+    
+    header {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        padding-bottom: 2.5em;
+    }
+
+    #logo {
+        margin-bottom: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+        margin: auto;
+    }
+
+    h1{
+        width: 80%;
+    }
+
+    #sobre{
+        margin-top: 0;
+    }
+
+    #imagens {
+        display: none;
+    }
+
+    #saberMais{
+        width: 80%;
+    }
+}
+

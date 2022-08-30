@@ -1,0 +1,191 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    color: #111111;
+	background-color: #f2f2f2;
+    font-family: 'Open Sans',sans-serif;
+}
+
+header {
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 4em;
+    text-align: center;
+}
+
+header h1 {
+    color:#4c5860;
+    font-family: Montserrat,sans-serif;
+}
+
+header p {
+    color: #5d8590;
+}
+
+#freePik {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+#geral {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 300px;
+}
+
+#geral h2 {
+    color: #6dadbf;
+    font-family: Montserrat,sans-serif;
+}
+
+#geral p {
+    color: #5d8590;
+}
+
+#primeiro {
+    width: 30%;
+    height: 400px;
+    margin-right: 1.5em;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, .5));
+}
+
+#segundo {
+    width: 30%;
+    height: 400px;
+    margin-right: 1.5em;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, .5));
+}
+
+#terceiro {
+    width: 30%;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, .5));
+}
+
+#homem {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-image: url("homem.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 95px;
+}
+
+#eficaz {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("eficaz.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 95px;
+}
+
+#delegar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("delegar.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 95px;
+}
+
+.mais {
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    border: none;
+    border-bottom: 1px solid #111;
+    padding: 5px;
+}
+
+section#linha {
+    width: 100%;
+    height: 250px;
+    background-color: #6dadbf;
+    margin: 0;
+    padding: 0;
+    margin-top: 12%;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+
+    #geral {
+        width: 80%;
+        display: flex;
+        margin-left: 2em;
+        flex-direction: column;
+    }
+
+    #primeiro {
+        width: 90%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    #segundo {
+        width: 90%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    #terceiro {
+        width: 90%;
+        height: auto;
+    }
+
+    #homem {
+        width: 100px;
+        height: 100px;
+        left: 120px;
+    }
+
+    #eficaz{
+        width: 100px;
+        height: 100px;
+        left: 120px;
+    }
+
+    #delegar {
+        width: 100px;
+        height: 100px;
+        left: 120px;
+    }
+
+    #linha {
+        display: none;
+    }
+
+    .mais {
+        margin-bottom: 5px;
+    }
+}

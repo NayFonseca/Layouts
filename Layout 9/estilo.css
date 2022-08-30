@@ -1,0 +1,146 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    background-image: linear-gradient(rgb(209, 251, 253), rgb(224, 239, 244), rgb(150, 208, 224));
+}
+
+header {
+    background-color: rgb(27, 160, 201);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 999;
+}
+
+main {
+    font-size: medium;
+    display: flex;
+    box-sizing: border-box;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, .30));
+    margin-top: 50px;
+}
+
+nav {
+    background-color: rgb(136, 177, 201);
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a,
+nav a:visited {
+    display: block;
+    padding: .5em 1em;
+    background-color: rgb(49, 64, 85);
+    border-top: 2px solid rgb(136, 177, 201);
+    color: #fff;
+    text-decoration: none;
+    transition: background-color .5s, border-left .5s;
+}
+
+nav a:hover {
+    background-color: rgb(136, 177, 201);
+    border-left: 7px solid white;
+}
+
+article {
+    flex: 6;
+    padding: 1em 2em;
+}
+
+img {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+a#imagem {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    filter: drop-shadow(0 5px 10px rgba(0 0 0 .5));
+}
+
+figcaption {
+    text-align: center;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 8px;
+    margin-top: 2px;
+}
+
+p {
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+#p1 {
+    display: block;
+    margin-bottom: 1.5em;
+    padding: 8px;
+}
+
+#p2 {
+    display: block;
+    margin-bottom: 1.5em;
+    padding: 8px;
+
+}
+
+#p3 {
+    display: block;
+    margin-bottom: 1.5em;
+    padding: 8px;
+
+}
+
+#p4 {
+    display: block;
+    margin-bottom: 1.5em;
+    padding: 8px;
+}
+
+#p5 {
+    display: block;
+    margin-bottom: 1.5em;
+    padding: 8px;
+}
+
+footer {
+    font-size: small;
+    color: white;
+    background-color: gray;
+    display: block;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    p {
+        width: 100%;
+    }
+}

@@ -1,0 +1,79 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+
+    background-color: #000000;
+    color: #fff;
+    padding: 1em;
+}
+
+p {
+    float: left;
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 2em;
+}
+
+#p1 {
+    color: aqua;
+}
+
+#p2 {
+    color: #006400;
+}
+
+#p3 {
+    color: rgb(210, 105, 30);
+}
+
+#span1 {
+    display: block;
+    border: 1px solid gray;
+    background-image: url('img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 1.5em;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, .30));
+}
+
+#span2 {
+    display: block;
+    border: 1px solid gray;
+    background-image: url('img3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 1.5em;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, .30));
+}
+
+#span3 {
+    display: block;
+    border: 1px solid gray;
+    background-image: url('img2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 1.5em;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, .30));
+}
+
+/* span {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+@media screen and (max-width: 800px) {
+    p {
+        width: 100%;
+    }
+}
